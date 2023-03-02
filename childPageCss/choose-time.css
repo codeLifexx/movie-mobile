@@ -1,0 +1,149 @@
+/* 头部 */
+.select-time {
+    width: 100%;
+    background-color: #000;
+    padding-bottom: 18.7vw;
+}
+
+.select-time header {
+    height: 12vw;
+    margin: auto;
+}
+
+/* 日期导航 */
+.date-nav {
+    overflow: auto;
+    font-size: 3.7vw;
+    border-top: 1px solid #302e2e;
+}
+.date-nav div {
+    width: 133.3vw;
+
+}
+::-webkit-scrollbar {
+    display: none; 
+}
+.date-nav p {
+    width: 21.3vw;
+    height: 10vw;
+    line-height: 10vw;
+    text-align: center;
+}
+.nav-active {
+    color: #f73171;
+    position: relative;
+}
+.nav-active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 1.3vw;
+    width: 17.3vw;
+    height: 0.8vw;
+    background-color: #f73171;
+    border-radius: 1.3vw;
+}
+
+/* 区域导航 */
+.cinema-nav {
+    width: 100%;
+    height: 8vw;
+}
+.cinema-nav a img {
+    width: 1.7vw;
+    height: 1.2vw;
+    margin-left: 1.6vw;
+}
+/* 图片区域 */
+.ad-2 {
+    width: 100%;
+    height: 23.7vw;
+    background-image: url(../images/img/ad_2.png);
+    background-size: 100% 100%;
+}
+.buy-btn {
+    width: 24vw;
+    background-color: #38c566;
+    height: 5.3vw;
+    text-align: center;
+    font-size: 3.7vw;
+}
+
+/* 影院列表 */
+.cinema-list {
+    margin-top: 4.7vw;
+}
+.data-icon {
+    width: 2.7vw;
+    height: 2.9vw;
+}
+.cinema-label {
+    display: flex;
+}
+.cinema-label p:first-child {
+    margin-left: 0;
+}
+.cinema-label p {
+    font-size: 2.7vw;
+    color: #fff;
+    margin-left: 1.6vw;
+    padding: 0 0.7vw;
+    border-radius: 0.7vw;
+}
+
+.discount {
+    display: flex;
+}
+.discount div:first-child {
+    margin-left: 0;
+}
+.discount div {
+    display: flex;
+    margin-left: 1.1vw;
+}
+.discount div p {
+    font-size: 3.2vw;
+    color: #fff;
+    padding: 0 0.7vw;
+}
+.discount div p:last-child {
+    margin-left: 0.7vw;
+}
+.price {
+    display: flex;
+    align-items: center;
+}
+.price img {
+    width: 4vw;
+    height: 4vw;
+}
+.time-main {
+    overflow:auto;
+}
+.scroll-content {
+    width: 133.3vw;
+}
+.time-list {
+    background-color: #404040;
+    width: 24vw;
+    height: 13.3vw;
+    border-radius: 1.1vw;
+    position: relative;
+    padding-left: 4.7vw;
+    box-sizing: border-box;
+    margin-top: 2.7vw;
+    margin-right: 2.7vw;
+}
+
+.time-list p {
+    line-height: 1.2;
+}
+.time-list .lan-a {
+    position: absolute;
+    width: 4vw;
+    top: 0.4vw;
+    left: 1.3vw;
+    line-height: 1;
+    /* writing-mode: vertical-rl; */
+}
+

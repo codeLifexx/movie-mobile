@@ -1,0 +1,213 @@
+.order-bind{
+    padding-bottom: 16vw;
+}
+
+header{
+    height: 12vw;
+    margin: auto;
+}
+.movie-info {
+    position: relative;
+}
+.movie-icon {
+    width: 6.7vw;
+    height: 6.7vw;
+}
+.count-date {
+    position: absolute;
+    right: 0;
+    top: 13.3vw;
+    background-color: #23ac38;
+    padding: 1.3vw;
+    border-top-left-radius: 5.3vw;
+    border-bottom-left-radius: 5.3vw;
+    width: 20vw;
+}
+
+.date-icon {
+    width: 5.3vw;
+    height: 5.3vw;
+}
+
+/* 主体 */
+.func-module {
+    margin-bottom: 13.3vw;
+}
+
+.func-list,.card-1,.foods-list{
+    background-color: #313030;
+}
+
+
+.func-list {
+    padding: 2.7vw;
+}
+.border-b-2 {
+    border-bottom: 1px solid #181616;
+}
+.coupon-icon {
+    width: 4.3vw;
+    height: 3.7vw;
+}
+.right_icon {
+    width: 1.9vw;
+    height: 3.5vw;
+}
+.card-icon {
+    width: 4.3vw;
+    height: 3.5vw;
+}
+.price-icon {
+    width: 4.3vw;
+    height: 4.3vw;
+}
+
+.card-1 {
+    padding: 2.7vw;
+}
+.diamond-icon {
+    width: 6.1vw;
+    height: 5.6vw;
+}
+
+/* 食品 */
+.foods-list {
+    padding: 2.7vw;
+}
+.food-1 {
+    width: 38.3vw;
+}
+.reduce-icon,
+.add-icon{
+    width: 4vw;
+    height: 4vw;
+    line-height: 3vw;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.reduce-icon {
+    background-color: #fff;
+}
+.add-icon {
+    background-color: #f73171;
+    color: #fff;
+}
+.food-details{
+    margin-top: 2vw;
+}
+
+
+/* 结算 */
+.buy-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 1.3vw 2.7vw;
+    box-sizing: border-box;
+    height: 24vw;
+}
+.down-icon {
+    width: 2.4vw;
+    height: 1.5vw;
+}
+.settlement {
+    display: block;
+    text-align: center;
+    line-height: 11.3vw;
+    background-color: #38c566;
+    border: none;
+    border-radius: 5.3vw;
+    color: #fff;
+    width: 100%;
+    height: 11.3vw;
+    font-size: 3.7vw;
+    margin-top: 1.3vw;
+}
+
+
+.ticket-main {
+    width: 86.7vw;
+    height: 146.7vw;
+    background-color: #fff;
+    border-radius: 1.3vw;
+    margin: auto;
+    position: relative;
+}
+.order-num {
+    padding-left: 1.6vw;
+    padding-top: 1.6vw;
+    padding-bottom: 1.6vw;
+}
+.ticket-info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+    border-bottom: dotted 0.3vw #b3b3b3;
+    padding-bottom: 1.3vw;
+}
+.movie-s {
+    width: 24vw;
+    height: 32vw;
+    border-radius: 0.5vw;
+    padding: 1.3vw 0;
+}
+.cinema-info {
+    padding: 5.3vw 0;
+    width: 80vw;
+    margin: auto;
+    padding-left: 2.7vw;
+    border-bottom: dotted 0.3vw #b3b3b3;
+}
+.cinema-info p {
+    margin-top: 0.7vw;
+}
+.recycle-1 {
+    top: 57.3vw;
+    left: -2vw;
+}
+.recycle-2 {
+    top: 57.3vw;
+    right: -2vw;
+}
+.recycle-3 {
+    top: 90.7vw;
+    left: -2vw;
+}
+.recycle-4 {
+    top: 90.7vw;
+    right: -2vw;
+}
+.recycle-1, .recycle-2, .recycle-4, .recycle-3 {
+    position: absolute;
+    width: 4.7vw;
+    height: 4.7vw;
+    background-color: #313030;
+    border-radius: 50%;
+}
+
+
+.code-main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.code-img {
+    width: 26.7vw;
+}
+
+.ticket-main{
+    position: fixed;
+    top:3%;
+    left: 6%;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .6s;
+    box-shadow: 5px 5px 10px #3ff, -5px -5px 10px #3ff;
+}

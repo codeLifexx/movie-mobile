@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../mainCss/reset.css">
+    <link rel="stylesheet" href="../mainCss/index.css">
+    <link rel="stylesheet" href="../mainCss/common.css">
+    <!-- <link rel="stylesheet" href="../swiper/swiper-bundle.min.css"> -->
+    <!-- <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="app">
+        <!-- 主页面 -->
+        <div class="index">
+            <!-- 头部搜索框 -->
+            <div class="header wd">
+                <div class="address">
+                    <p>上海</p>
+                    <img src="../images/icon/drop_icon.png" alt="">
+                </div>
+                <div class="search">
+                    <img src="../images/icon/search_icon.png" alt="">
+                    <input type="text" placeholder="请输入电影名称、电影院">
+                </div>
+                <div class="scan">
+                    <img src="../images/icon/scan_icon.png" alt="">
+                </div>
+            </div>
+            <!-- Swiper1 -->
+            <div class="swiper1 wd">
+                <div class="swiper-wrapper1">
+                    <div class="swiper-slide1 sd">
+                        <img src="../images/img/1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide1 sd">
+                        <img src="../images/img/2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide1 sd">
+                        <img src="../images/img/3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide1 sd">
+                        <img src="../images/img/4.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide1 sd">
+                        <img src="../images/img/5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- 导航栏 -->
+            <div class="index-nav">
+                <p class="active">正在热映</p>
+                <p>即将上映</p>
+                <p>排行榜</p>
+            </div>
+            <!-- Swiper2 -->
+            <div class="swiper mySwiper wd">
+                <div class="swiper-wrapper wd">
+                    <div class="swiper-slide ad">
+                        <a href="../childPage/movie-details.html"><img src="../images/img/movie_1.jpg" alt=""></a>
+                        <h5>八百</h5>
+                        <p>2020-08-01上映</p>
+                    </div>
+                    <div class="swiper-slide ad">
+                        <a href="../childPage/movie-details.html"><img src="../images/img/movie_2.jpg" alt=""></a>
+                        <h5>八百</h5>
+                        <p>2020-08-01上映</p>
+                    </div>
+
+                    <div class="swiper-slide ad">
+                        <a href="../childPage/movie-details.html"><img src="../images/img/movie_3.jpg" alt=""></a>
+                        <h5>八百</h5>
+                        <p>2020-08-01上映</p>
+                    </div>
+                    <div class="swiper-slide ad">
+                        <a href="../childPage/movie-details.html"><img src="../images/img/movie_4.jpg" alt=""></a>
+                        <h5>八百</h5>
+                        <p>2020-08-01上映</p>
+                    </div>
+                    <div class="swiper-slide ad">
+                        <a href="../childPage/movie-details.html"><img src="../images/img/movie_5.jpg" alt=""></a>
+                        <h5>八百</h5>
+                        <p>2020-08-01上映</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 查看更多 -->
+            <div class="more">
+                <p>查看更多(30部)&gt;</p>
+            </div>
+            <!-- 影院列表 -->
+            <div class="list">
+                <!-- 第一个 -->
+                <div class="list-item pb-20">
+                    <div class="item-header">
+                        <div class="item-header-fire">
+                            <img src="../images/icon/fire_icon.png" alt="">
+                            <p class="f-26 white ml-12">人气影院</p>
+                        </div>
+                        <a href="#" class="f-24 white">查看全部</a>
+                    </div>
+                    <div class="item-main">
+                        <div class="cinema-name mt-12">
+                            <p class="f-26 white-90">嘉年华国际影城(北路店)</p>
+                            <div class="rank">
+                                <img class="mr-12" src="../images/icon/rank_icon.png" alt="">
+                                <p class="gray-80 f-20">人气5000</p>
+                            </div>
+                        </div>
+                        <p class="cinema-address mt-12 f-20 gray-80">南宁市某某某路4楼</p>
+                        <div class="fl-en mt-12">
+                            <div class="cinema-label">
+                                <p class="bg-yellow">零食</p>
+                                <p class="bg-violet">MAX厅</p>
+                                <p class="bg-green">中国巨幕</p>
+                                <p class="bg-blue">停车场</p>
+                            </div>
+                            <p class="gray-80 f-20">1.1km</p>
+                        </div>
+                        <div class="fl-en mt-12">
+                            <div class="discount">
+                                <div>
+                                    <p class="bg-green">卡</p>
+                                    <p>开通会员卡8折购票</p>
+                                </div>
+                                <div>
+                                    <p class="bg-violet">团</p>
+                                    <p>组团购票优惠8折起</p>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <img src="../images/icon/price_icon.png" alt="">
+                                <p class="red-80 f-26">
+                                    19.9
+                                    <span class="f-20">起</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 二三四个 -->
+                <div class="list-item pb-20 mt-12">
+                    <div class="item-header">
+                        <div class="item-header-fire">
+                            <img src="../images/icon/fire_icon.png" alt="">
+                            <p class="f-26 white ml-12">人气影院</p>
+                        </div>
+                        <a href="#" class="f-24 white">查看全部</a>
+                    </div>
+                    <div class="item-main">
+                        <div class="cinema-name mt-12">
+                            <p class="f-26 white-90">嘉年华国际影城(北路店)</p>
+                            <div class="rank">
+                                <img class="mr-12" src="../images/icon/rank_icon.png" alt="">
+                                <p class="gray-80 f-20">人气5000</p>
+                            </div>
+                        </div>
+                        <p class="cinema-address mt-12 f-20 gray-80">南宁市某某某路4楼</p>
+                        <div class="fl-en mt-12">
+                            <div class="cinema-label">
+                                <p class="bg-yellow">零食</p>
+                                <p class="bg-violet">MAX厅</p>
+                                <p class="bg-green">中国巨幕</p>
+                                <p class="bg-blue">停车场</p>
+                            </div>
+                            <p class="gray-80 f-20">1.1km</p>
+                        </div>
+                        <div class="fl-en mt-12">
+                            <div class="discount">
+                                <div>
+                                    <p class="bg-green">卡</p>
+                                    <p>开通会员卡8折购票</p>
+                                </div>
+                                <div>
+                                    <p class="bg-violet">团</p>
+                                    <p>组团购票优惠8折起</p>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <img src="../images/icon/price_icon.png" alt="">
+                                <p class="red-80 f-26">
+                                    19.9
+                                    <span class="f-20">起</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item pb-20 mt-12">
+                    <div class="item-header">
+                        <div class="item-header-fire">
+                            <img src="../images/icon/fire_icon.png" alt="">
+                            <p class="f-26 white ml-12">人气影院</p>
+                        </div>
+                        <a href="#" class="f-24 white">查看全部</a>
+                    </div>
+                    <div class="item-main">
+                        <div class="cinema-name mt-12">
+                            <p class="f-26 white-90">嘉年华国际影城(北路店)</p>
+                            <div class="rank">
+                                <img class="mr-12" src="../images/icon/rank_icon.png" alt="">
+                                <p class="gray-80 f-20">人气5000</p>
+                            </div>
+                        </div>
+                        <p class="cinema-address mt-12 f-20 gray-80">南宁市某某某路4楼</p>
+                        <div class="fl-en mt-12">
+                            <div class="cinema-label">
+                                <p class="bg-yellow">零食</p>
+                                <p class="bg-violet">MAX厅</p>
+                                <p class="bg-green">中国巨幕</p>
+                                <p class="bg-blue">停车场</p>
+                            </div>
+                            <p class="gray-80 f-20">1.1km</p>
+                        </div>
+                        <div class="fl-en mt-12">
+                            <div class="discount">
+                                <div>
+                                    <p class="bg-green">卡</p>
+                                    <p>开通会员卡8折购票</p>
+                                </div>
+                                <div>
+                                    <p class="bg-violet">团</p>
+                                    <p>组团购票优惠8折起</p>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <img src="../images/icon/price_icon.png" alt="">
+                                <p class="red-80 f-26">
+                                    19.9
+                                    <span class="f-20">起</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item pb-20 mt-12">
+                    <div class="item-header">
+                        <div class="item-header-fire">
+                            <img src="../images/icon/fire_icon.png" alt="">
+                            <p class="f-26 white ml-12">人气影院</p>
+                        </div>
+                        <a href="#" class="f-24 white">查看全部</a>
+                    </div>
+                    <div class="item-main">
+                        <div class="cinema-name mt-12">
+                            <p class="f-26 white-90">嘉年华国际影城(北路店)</p>
+                            <div class="rank">
+                                <img class="mr-12" src="../images/icon/rank_icon.png" alt="">
+                                <p class="gray-80 f-20">人气5000</p>
+                            </div>
+                        </div>
+                        <p class="cinema-address mt-12 f-20 gray-80">南宁市某某某路4楼</p>
+                        <div class="fl-en mt-12">
+                            <div class="cinema-label">
+                                <p class="bg-yellow">零食</p>
+                                <p class="bg-violet">MAX厅</p>
+                                <p class="bg-green">中国巨幕</p>
+                                <p class="bg-blue">停车场</p>
+                            </div>
+                            <p class="gray-80 f-20">1.1km</p>
+                        </div>
+                        <div class="fl-en mt-12">
+                            <div class="discount">
+                                <div>
+                                    <p class="bg-green">卡</p>
+                                    <p>开通会员卡8折购票</p>
+                                </div>
+                                <div>
+                                    <p class="bg-violet">团</p>
+                                    <p>组团购票优惠8折起</p>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <img src="../images/icon/price_icon.png" alt="">
+                                <p class="red-80 f-26">
+                                    19.9
+                                    <span class="f-20">起</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div class="footer fl-ar bg-black">
+            <a class="white" href="./index.html">
+                <img src="../images/icon/home_a_icon.png" alt="">
+                <p class="red-80">首页</p>
+            </a>
+            <a class="white" href="./movie.html">
+                <img src="../images/icon/movie_n_icon.png" alt="">
+                <p>电影</p>
+            </a>
+            <a class="white" href="./cinema.html")>
+                <img src="../images/icon/cinema_n_icon.png" alt="">
+                <p>电影院</p>
+            </a>
+            <a class="white" href="./find.html")>
+                <img src="../images/icon/find_n_icon.png" alt="">
+                <p>发现</p>
+            </a>
+            <a class="white" href="./mine.html")>
+                <img src="../images/icon/mine_n_icon.png" alt="">
+                <p>我的</p>
+            </a>
+        </div>
+</body>
+<script src="../js/flexible.js"></script>
+<!-- Swiper JS -->
+<!-- <script src="../swiper/swiper-bundle.min.js"></script> -->
+<!-- Initialize Swiper -->
+<script>
+    // var swiper = new Swiper(".mySwiper", {
+    //     slidesPerView: 3,
+    //     spaceBetween: 30,
+    //     pagination: {
+    //         el: ".swiper-pagination",
+    //         clickable: true,
+    //     },
+    // });
+    let mySwiper1 = document.querySelector('.swiper1')
+    let swiper1 = document.querySelector('.swiper-wrapper1');
+    swiper1.innerHTML += swiper1.innerHTML;
+    let speed1=-2;
+    let move1= () => {
+        if(swiper1.offsetLeft<-(1817.2)){
+            swiper1.style.left='0';
+        }
+        if(swiper1.offsetLeft>0){
+            swiper1.style.left=-(1817.2)+'px';
+        }
+        swiper1.style.left=swiper1.offsetLeft+speed1+'px';
+    }
+    let timer1 = setInterval(move1,30);
+    mySwiper1.addEventListener('mouseover',()=>{
+        clearInterval(timer1);
+    });
+    mySwiper1.addEventListener('mouseout',()=>{
+        timer1 = setInterval(move1,30);
+    });
+    
+
+
+    let mySwiper = document.querySelector('.mySwiper')
+    let swiper = document.querySelector('.swiper-wrapper');
+    swiper.innerHTML += swiper.innerHTML;
+    let speed=2;
+    let move= () => {
+        if(swiper.offsetLeft<-(610)){
+            swiper.style.left='0';
+        }
+        if(swiper.offsetLeft>0){
+            swiper.style.left=-(610)+'px';
+        }
+        swiper.style.left=swiper.offsetLeft+speed+'px';
+    }
+    let timer = setInterval(move,30);
+    mySwiper.addEventListener('mouseover',()=>{
+        clearInterval(timer);
+    });
+    mySwiper.addEventListener('mouseout',()=>{
+        timer = setInterval(move,30);
+    });
+
+</script>
+</html>

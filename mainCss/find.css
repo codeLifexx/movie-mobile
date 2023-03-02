@@ -1,0 +1,36 @@
+*{
+    line-height: 1.5;
+}
+.find_index {
+    background-color: #000;
+    padding-bottom: 21.3vw;
+}
+.video-list:first-child {
+    margin-top: 0;
+}
+.video-list {
+    height: 64.7vw;
+    margin-top: 2.7vw;
+}
+.video-main {
+    width: 100%;
+    position: relative;
+}
+.video-main h5 {
+    position: absolute;
+    left: 2.7vw;
+    top: 2.7vw;
+    letter-spacing: 0.7vw;
+}
+.video-main video {
+    width: 100%;
+}
+.like-user img {
+    width: 6.7vw;
+    height: 6.7vw;
+    border-radius: 50%;
+}
+.data-icon {
+    width: 5.3vw;
+    margin-right: 0.8vw;
+}

@@ -1,0 +1,213 @@
+.mine-content{
+    padding-bottom: 15.4vw;
+}
+
+
+/* 头部导航 */
+.mine-header {
+    width: calc(100% - 5.3vw);
+    height: 11.3vw;
+    margin: auto;
+}
+.mine-header .scan-icon {
+    width: 5.3vw;
+    height: 5.3vw;
+}
+.mine-header h5 {
+    margin-left: 4vw;
+}
+.mine-header .news {
+    display: flex;
+    align-items: center;
+    width: 13.3vw;
+}
+.mine-header .news .evaluate {
+    line-height: 0;
+}
+.mine-header .news .evaluate img {
+    width: 5.5vw;
+    height: 4.7vw;
+    margin-top: 1.1vw;
+}
+.mine-header .more-icon {
+    width: 5.6vw;
+    height: 1.3vw;
+    margin-left: 1.3vw;
+}
+
+
+
+/* 头像区 */
+.mine-main {
+    width: calc(100% - 5.3vw);
+    height: 40vw;
+    border-radius: 1.3vw;
+    margin: auto;
+}
+
+.user-info {
+    width: calc(100% - 8vw);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 2.7vw;
+}
+.user-info .avatar {
+    width: 13.3vw;
+    height: 13.3vw;
+    border-radius: 1.1vw;
+}
+.user-info .user-name {
+    display: flex;
+    align-items: center;
+}
+.user-info .user-name img {
+    width: 4.5vw;
+    height: 3.9vw;
+}
+.user-info .user-label {
+    display: flex;
+    margin-top: 1.3vw;
+}
+.user-info .user-label p:first-child {
+    margin-left: 0;
+}
+.user-info .user-label p {
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 2.7vw;
+    padding: 0.3vw 2.7vw;
+    font-size: 2.9vw;
+    letter-spacing: 0.3vw;
+    margin-left: 1.6vw;
+}
+
+
+/* 记录列表 */
+.user-data {
+    width: 100%;
+    margin-top: 5.3vw;
+}
+.user-data li {
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+.user-data .special::after {
+    content: "";
+    width: 1px;
+    height: 6.7vw;
+    background-color: #f0eded;
+    position: absolute;
+    right: 0;
+    top: 28%;
+}
+
+
+/* 会员中心 */
+.member {
+    height: 16vw;
+    margin-top: 2.7vw;
+    display: flex;
+    align-items: center;
+    padding: 0 2.7vw;
+    border-radius: 5px;
+}
+.member .diamond-icon {
+    width: 6.1vw;
+    height: 5.6vw;
+}
+
+.goto-btn {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.right_icon {
+    width: 1.9vw;
+    height: 3.5vw;
+}
+
+/* 我的订单 */
+.order {
+    height: 54vw;
+    padding: 2.7vw;
+    margin-top: 2.7vw;
+    border-radius: 5px;
+}
+.order h3 {
+    display: flex;
+    align-items: center;
+}
+.order .order-icon {
+    width: 3.9vw;
+    height: 3.9vw;
+}
+.order .right_icon {
+    margin-left: auto;
+}
+.right_icon {
+    width: 1.9vw;
+    height: 3.5vw;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu a {
+    width: 25%;
+    margin-top: 4.7vw;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    outline: none;
+}
+.menu a div {
+    width: 10.7vw;
+    height: 10.7vw;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu a div img {
+    width: 50%;
+}
+.menu a p {
+    color: #fff;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-top: 0.7vw;
+}
+
+
+
+.menu-list {
+    display: flex;
+    padding: 2.7vw;
+    border-bottom: 1px solid #000;
+    align-items: center;
+    margin-top: 3px;
+}
+.star-icon {
+    width: 4.1vw;
+    height: 3.9vw;
+}
+.menu-list .right_icon {
+    margin-left: auto;
+}
+.right_icon {
+    width: 1.9vw;
+    height: 3.5vw;
+}
+.card-icon {
+    width: 4.3vw;
+    height: 3.5vw;
+}
+.th-icon {
+    width: 4vw;
+    height: 3.5vw;
+}
